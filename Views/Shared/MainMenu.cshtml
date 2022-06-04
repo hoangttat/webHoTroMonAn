@@ -1,0 +1,35 @@
+﻿@using WebOrderTbRestaurant.Models.EF;
+@{
+    var menu = ViewBag.menu as List<Main_Menu>;
+    var food_category = ViewBag.Food_Category as List<Food_Category>;
+}
+
+<div class="row">
+    <div class="col-12">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#yummyfood-nav" aria-controls="yummyfood-nav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i> Menu</button>
+            <!-- Menu Area Start -->
+            <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
+                <ul class="navbar-nav" id="yummy-nav">
+                    @foreach (var item in menu)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="@item.Link">@item.Content</a>
+                        </li>
+                    }
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thực đơn</a>
+                        <div class="dropdown-menu" aria-labelledby="yummyDropdown">
+                            @foreach (var item in food_category)
+                            {
+                                string url = "/thuc-don/" + item.Link + "-" + item.ID;
+                                <a class="dropdown-item" href="@url">@item.Name</a>
+                            }
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+

@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewBag.Title = "Đăng ký tài khoản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="banner">
+    <div class="container">
+        <div class="row text-center">
+            <p>Đăng ký tài khoản</p>
+        </div>
+    </div>
+</div>
+
+<div class="breadcumb-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Đăng ký tài khoản</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ****** Breadcumb Area End ****** -->
+<!-- ****** Contatc Area Start ****** -->
+<div class="contact-area">
+    <div class="container">
+
+        <!-- Contact Form  -->
+        <div class="contact-form-area">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                </div>
+                <div class="col-12 col-md-5 item">
+                    <div class="contact-form">
+                        <h2 class="contact-form-title mb-30 text-center text-uppercase">Đăng ký tài khoản</h2>
+                        @if (TempData["message"] != null)
+                        {
+                            <h5 class="alert alert-danger text-center">@TempData["message"]</h5>
+                        }
+
+                        @using (Html.BeginForm("frmRegister", "User", FormMethod.Post, new { id = "frmValidate" }))
+                        {
+                            <div class="form-group">
+                                <label for="">Họ và tên (<span style="color:red">*</span>)</label>
+                                <input type="text" class="form-control" name="Full_Name" placeholder="Nhập họ và tên...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Tài khoản (<span style="color:red">*</span>)</label>
+                                <input type="text" class="form-control" name="Account" placeholder="Nhập tài khoản...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Mật khẩu (<span style="color:red">*</span>)</label>
+                                <input type="password" class="form-control" name="Password" placeholder="Nhập mật khẩu...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Số điện thoại (<span style="color:red">*</span>)</label>
+                                <input type="text" class="form-control" name="Phone" placeholder="Nhập số điện thoại...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="text" class="form-control" name="Email" placeholder="Nhập email...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Địa chỉ</label>
+                                <input type="text" class="form-control" name="Address" placeholder="Nhập địa chỉ...">
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn contact-btn">Tạo tài khoản</button>
+                            </div>
+                        }
+                        <!-- Contact Form -->
+
+                        <p>Đã có tài khoản? <a href="/user/register">Đăng nhập</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section jsFooter{
+
+    <script>
+        $(document).ready(function () {
+            jQuery.validator.addMethod("email_regex", function (value, element) {
+                if (/^[a-z][a-z0-9_\.]{5,32}@@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/g.test(value)) {
+                    return true;
+                } else {
+                    return false;
+                };
+            }, "Invalid email");
+
+
+            jQuery.validator.addMethod("phonenu", function (value, element) {
+                if (/^(09[0-9]|07[0|6|7|8|9]|03[2-9]|08[1-5])+([0-9]{7})\b/g.test(value)) {
+                    return true;
+                } else {
+                    return false;
+                };
+            }, "Invalid phone number");
+            //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+            $("#frmValidate").validate({
+                rules: {
+                    Email: {
+                        required: true,
+                        email_regex: true
+                    },
+                    Password: "required",
+                    Account: "required",
+                    Full_Name: "required",
+                    Phone: {
+                        required: true,
+                        phonenu: true
+                    }
+                },
+                messages: {
+                    Email: {
+                        required: "Vui lòng nhập số Email",
+                        email_regex: "Email không hợp lệ"
+                    },
+                    Password: "Vui lòng nhập mật khẩu",
+                    Account: "Vui lòng nhập họ và tên",
+                    Full_Name: "Vui lòng nhập họ và tên",
+                    Phone: {
+                        required: "Vui lòng nhập số điện thoại",
+                        phonenu: "Số điện thoại không hợp lệ"
+                    }
+                }
+            });
+        });
+    </script>
+
+}

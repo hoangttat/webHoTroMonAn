@@ -1,0 +1,112 @@
+﻿@model List<WebOrderTbRestaurant.Models.OrderFood>
+
+@{
+    ViewBag.Title = "Thực đơn của tôi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var sum = new long();
+}
+
+@section jsFooter{
+    <script src="~/Assets/Client/js/Menu.js"></script>
+}
+
+
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <p>Thực đơn của tôi</p>
+        </div>
+    </div>
+</div>
+
+
+    @if (Model.Count > 0)
+    {
+        <div class="container">
+            <table id="cart" class="table table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th style="width:55%">Tên món ăn</th>
+                        <th style="width:5%">Giá</th>
+                        <th style="width:8%">Số lượng</th>
+                        <th style="width:15%" class="text-center">Thành tiền</th>
+                        <th style="width:17%"> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td data-th="Product">
+                                <div class="row">
+                                    <div class="col-sm-4 img-food">
+                                        <img src="~/Assets/Client/img/food/@item.food.Image" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h4 class="nomargin">@item.food.Name</h4>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Price">@item.food.Price.Value.ToString("N0") ₫</td>
+                            <td data-th="Quantity">
+                                <div class="form-control text-center">
+                                    <input class="txtQuantity" value="@item.quantity" type="number" data-id="@item.food.ID">
+                                </div>
+                            </td>
+                            <td data-th="Subtotal" class="text-center">@((item.food.Price.GetValueOrDefault(0) * item.quantity).ToString("N0")) ₫</td>
+                            <td class="actions" data-th="">
+                                <div class="btn-Edit" title="Sửa số lượng">
+                                    <a class="btn btn-info btn-sm">
+                                        <i class="fa fa-edit"></i>@*button sửa sản phẩm*@
+                                    </a>
+                                </div>
+
+                                <div class="btn-Delete" title="Xóa sản phẩm" data-id="@item.food.ID">
+                                    <a class="btn btn-danger btn-sm">
+                                        <i class="fa fa-trash-o"></i>@*button xóa sản phẩm*@
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        sum += (long)(item.food.Price.GetValueOrDefault(0) * item.quantity);
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+
+                        <td>
+                            <a class="btn btn-success" id="btnDeleteAll"><i class="fa fa-times" style="color:#ff0000; margin-right:2px;"></i>Xóa thực đơn</a>
+                        </td>
+
+                        <td>
+                            <a href="/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục xem món ăn</a>
+                        </td>
+                        <td  class="hidden-xs"></td>
+                        <td class="text-right">Tổng tiền: </td>
+                        <td class="hidden-xs text-center">
+                            <strong>@sum.ToString("N0") ₫  </strong>
+                        </td>
+                        <td>
+                            <a href="/dat-ban" class="btn btn-success btn-block">Đặt bàn <i class="fa fa-angle-right"></i></a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="warning">
+            <p>Bạn chưa có món ăn nào trong thực đơn</p>
+            <div class="btnWarning">
+                <a href="/" class="btn btn-info btn-rounded"><i class="fa fa-angle-left"></i> Tiếp tục xem món ăn</a>
+            </div>           
+        </div>
+    }
+
+
+        
+
+
+

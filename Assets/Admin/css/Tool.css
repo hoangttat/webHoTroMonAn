@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+    padding-right:5px;
+}
+
+.Over-data{
+    height: 150px;
+    overflow:auto;
+}
+
+.btn-create{
+    margin: 10px 10px;
+    padding-left: 10px;
+}
+
+.btn-create a{
+    font-size: 18px;
+}
+
+.over-slide{
+    height: 250px;
+    overflow:auto;
+}
+
+.btn-disable{
+    margin-left: 35px;
+}
+
+.btn-enable{
+    margin-left:45px;
+}
+
+label.error{
+    color: red;
+}

@@ -1,0 +1,385 @@
+﻿
+
+@using PagedList.Mvc;
+@using PagedList;
+@using WebOrderTbRestaurant.Models.EF;
+@model PagedList.IPagedList<User>
+@{
+    ViewBag.Title = "Quản lý truy cập";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var i = 0;
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Danh sách truy cập</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<div class="row">
+    @if (TempData["message"] != null)
+    {
+        <div class="alert alert-success text-center" id="AlertBox">
+            @TempData["message"]
+        </div>
+    }
+</div>
+<div class="row">
+    <div class="col-md-4" style="margin-bottom: 10px">
+        <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#add">Thêm mới </button>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Thêm mới truy cập</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("Add", "Login", FormMethod.Post, new { id = "frmAdd", enctype = "multipart/form-data" }))
+                {
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tên người dùng:</label>
+                        <input type="text" name="Full_Name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tài khoản:</label>
+                        <input type="text" name="Account" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Mật khẩu:</label>
+                        <input type="password" name="Password" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Địa chỉ:</label>
+                        <input type="text" name="Address" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Số điện thoại:</label>
+                        <input type="text" name="Phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="text" name="Email" class="form-control" required>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Thêm mới</button>
+                    </div>
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <table width="100%" class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th style="text-align:center;" colspan="2">Thông tin người dùng</th>
+                            <th style="text-align:center;">Trạng thái</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            i++;
+                            <tr class="odd gradeX">
+                                <td>@i</td>
+                                <td>
+                                    <p>Họ và tên: <b>@item.Full_Name</b></p>
+                                    <p>SĐT: <b>@item.Phone</b></p>
+                                </td>
+                                <td>
+                                    <p>Email: <b>@item.Email</b></p>
+                                    <p>Địa chỉ: <b>@item.Address</b></p>
+                                </td>
+                                <td>
+                                    @if (item.Status == true)
+                                    {
+                                        <button class="btn btn-primary btnStatus" data-id="@item.ID" title="Khóa truy cập người dùng này">Đang hoạt động</button>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-default btnStatus" data-id="@item.ID" title="Mở khóa hoạt động">Đã khóa</button>
+                                    }
+                                </td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn glyphicon glyphicon-edit btn-primary btnEdit" title="Cập nhật người dùng" style="padding-bottom:5px" data-id="@item.ID"></button>
+                                        <button type="button" class="btn glyphicon glyphicon-remove btn-danger btnDelete" title="Xóa người dùng" data-id="@item.ID"></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+                <!-- /.table-responsive -->
+
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+<div class="row">
+    <div class="col-12">
+        <div class="pagination-area d-sm-flex mt-15">
+            <div class="page-status">
+                <p>Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount</p>
+            </div>
+            <nav aria-label="#">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center text-uppercase" id="exampleModalLabel">Cập nhật nhà cung cấp</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("Edit", "Login", FormMethod.Post, new { id = "frmEdit", enctype = "multipart/form-data" }))
+                {
+                    <input type="hidden" name="ID" id="ID" />
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tên người dùng:</label>
+                        <input type="text" name="Full_Name" id="Full_Name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Địa chỉ:</label>
+                        <input type="text" name="Address" id="Address" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Số điện thoại:</label>
+                        <input type="text" name="Phone" id="Phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="text" name="Email" id="Email" class="form-control" required>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-lg btn-primary">Cập nhật</button>
+                    </div>
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section jsFooter{
+
+    <script>
+        $(document).ready(function () {
+
+            //nếu không có thao tác gì thì ẩn đi
+            $('#AlertBox').removeClass('hide');
+
+            //Sau khi hiển thị lên thì delay 1s và cuộn lên trên sử dụng Newsup
+            $('#AlertBox').delay(3000).NewsUp(500);
+
+
+            $('.btnDelete').off('click').on('click', function () {
+
+                const notice = PNotify.notice({
+                    title: 'Thông báo',
+                    text: 'Bạn thật sự muốn xóa?',
+                    icon: 'fa fa-question-circle',
+                    width: '360px',
+                    minHeight: '110px',
+                    hide: false,
+                    closer: false,
+                    sticker: false,
+                    destroy: true,
+                    stack: new PNotify.Stack({
+                        dir1: 'down',
+                        modal: true,
+                        firstpos1: 25,
+                        overlayClose: false
+                    }),
+                    modules: new Map([
+                        ...PNotify.defaultModules,
+                        [PNotifyConfirm, {
+                            confirm: true
+                        }]
+                    ])
+                });
+
+                notice.on('pnotify:confirm', () =>
+                    $.ajax({
+                        data: { ID: $(this).data('id') },
+                        url: '/Admin/Login/Delete',
+                        dataType: 'Json',
+                        type: 'POST',
+                        success: function (res) {
+                            if (res.status == true) {
+                                PNotify.success({
+                                    title: 'THÔNG BÁO!!',
+                                    text: 'Xóa thành công.'
+                                });
+                                window.location.href = "/Admin/Login";
+                            } else {
+                                PNotify.error({
+                                    title: 'THÔNG BÁO!!',
+                                    text: 'Xóa KHÔNG thành công.'
+                                });
+                            }
+                        }
+                    })
+
+                );
+            });
+
+            $('.btnEdit').click(function (event) {
+                $('.edit').modal('show');
+                //alert($(this).data('id'));
+                var ID = $(this).data('id');
+                $.ajax({
+                    url: "/Admin/Login/GetByID/" + ID,
+                    type: 'GET',
+                    dataType: 'json',
+                    contentType: "application/json; charset=utf-8",
+                    success: function (res) {
+                        $('#Full_Name').val(res.Full_Name);
+                        $('#Address').val(res.Address);
+                        $('#Phone').val(res.Phone);
+                        $('#Email').val(res.Email);
+                        $('#ID').val(res.ID);
+                    }
+                });
+            });
+
+             jQuery.validator.addMethod("phonenu", function (value, element) {
+                if (/^(09[0-9]|07[0|6|7|8|9]|03[2-9]|08[1-5])+([0-9]{7})\b/g.test(value)) {
+                    return true;
+                } else {
+                    return false;
+                };
+            }, "Invalid phone number");
+
+            jQuery.validator.addMethod("email_regex", function (value, element) {
+                if (/^[a-z][a-z0-9_\.]{5,32}@@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/g.test(value)) {
+                    return true;
+                } else {
+                    return false;
+                };
+            }, "Invalid email");
+
+            //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+            $("#frmAdd").validate({
+                rules: {
+                    Account: "required",
+                    Password: "required",
+                    Full_Name: "required",
+                    Address: "required",
+                    Phone: {
+                        required: true,
+                        phonenu: true
+                    },
+                    Email: {
+                        required: true,
+                        email_regex: true
+                    }
+                },
+                messages: {
+                    Account: "Vui lòng nhập tài khoản",
+                    Password: "Vui lòng nhập mật khẩu",
+                    Full_Name: "Vui lòng nhập tên người dùng",
+                    Address: "Vui lòng nhập địa chỉ",
+                    Phone: {
+                        required: "Vui lòng nhập số điện thoại",
+                        phonenu: "Số điện thoại không hợp lệ"
+                    },
+                    Email: {
+                        required: "Vui lòng nhập email",
+                        email_regex: "Email không hợp lệ"
+                    }
+                }
+            });
+            $("#frmEdit").validate({
+                rules: {
+                    Full_Name: "required",
+                    Address: "required",
+                    Phone: {
+                        required: true,
+                        phonenu: true
+                    },
+                    Email: {
+                        required: true,
+                        email_regex: true
+                    }
+                },
+                messages: {
+                    Full_Name: "Vui lòng nhập tên người dùng",
+                    Address: "Vui lòng nhập địa chỉ",
+                    Phone: {
+                        required: "Vui lòng nhập số điện thoại",
+                        phonenu: "Số điện thoại không hợp lệ"
+                    },
+                    Email: {
+                        required: "Vui lòng nhập email",
+                        email_regex: "Email không hợp lệ"
+                    }
+                }
+            });
+
+            $('.btnStatus').click(function (event) {
+                var ID = $(this).data('id');
+                $.ajax({
+                    url: "/Admin/Login/ChangeStatus/" + ID,
+                    type: 'POST',
+                    dataType: 'json',
+                    contentType: "application/json; charset=utf-8",
+                    success: function (res) {
+                        if (res.status == true) {
+                            PNotify.success({
+                                title: 'THÔNG BÁO!!',
+                                text: 'Cập nhật trạng thái thành công.'
+                            });
+                            window.location.href = "/Admin/Login";
+                        } else {
+                            PNotify.error({
+                                title: 'THÔNG BÁO!!',
+                                text: 'Cập nhật trạng thái KHÔNG thành công.'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
+
+}
+
+
+
+

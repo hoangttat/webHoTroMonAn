@@ -1,0 +1,243 @@
+﻿
+
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control {
+        width: 20%;
+        display: inline !important;
+    }
+
+    .actions .btn {
+        width: 36%;
+        margin: 1.5em 0;
+    }
+
+    .actions .btn-info {
+        float: left;
+    }
+
+    .actions .btn-danger {
+        float: right;
+    }
+
+    table#cart thead {
+        display: none;
+    }
+
+    table#cart tbody td {
+        display: block;
+        padding: .6rem;
+        min-width: 320px;
+        text-align: center;
+    }
+
+    table#cart tbody tr td:first-child {
+        background: #333;
+        color: #fff;
+    }
+
+    table#cart tbody td:before {
+        content: attr(data-th);
+        font-weight: bold;
+        display: inline-block;
+        width: 8rem;
+        text-align: center;
+    }
+
+    table#cart tfoot td {
+        display: block;
+    }
+
+        table#cart tfoot td .btn {
+            display: block;
+        }
+}
+
+
+
+.small_products {
+    width: 280px;
+  	height: 100px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F6F6F6;
+	margin-top:5px;
+}
+
+.small_products:hover{
+	background-color:#E0E0DA;
+}
+
+.small_products .info .title:hover{
+	color:#347091;
+}
+
+.small_products .image {    
+    width: 60px;
+    float: left;
+}
+
+.image img{
+	width: 60px;
+    height: 92px;
+}
+.small_products .info {
+    font-size: 12px;
+    width: 210px;
+    float: left;
+	margin-top:5px;
+}
+
+.small_products .info .title {
+    font-size: 15px;
+	margin-left:8px;
+	color:#333;
+    display:inline-block;
+}
+
+.small_products .info .prices {
+    color: #900;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.ctotal {
+    text-align: center;
+	font-size:18px;
+	margin-left:45px;
+	margin-top:5px;
+}
+
+.ctotal b {
+    color: #00cc66;
+}
+
+.buttom {
+    margin-left: 45px;
+    margin-top:5px;
+}
+
+.buttom a.cartlink:focus, .buttom a.cartlink:hover {
+    text-decoration: none;
+	background-color:#039;
+}
+.buttom a.cartlink {
+    display: block;
+    width: 200px;
+    margin: 2px auto 4px auto;
+    background: #347091;
+    border: 1px solid #F6F6F6;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttom a.cartlink i {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.CartHover{
+	width:220px;
+}
+
+.cart:hover .top-cart-content{
+	display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+a.noneHover:hover{
+    text-decoration:none;
+    color:#347091;
+}
+
+ a.Tac-Gia:hover{
+    text-decoration:none;
+}
+
+ .btn-Edit{
+     width:33px;
+     height:auto;
+ }
+
+  .btn-Delete{
+      margin-left:50px;
+      margin-top:-30px;
+     width:33px;
+     height:auto;
+ }
+
+.txtQuantity{
+    width:40px;
+    border:none;
+    margin-top:-5px;
+}
+
+.img-food{
+    float:left;
+}
+
+.img-food img{
+    border-radius:4px;
+}
+
+h4.nomargin{
+    float:left;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+thead tr th {
+   font-family: 'Oswald', sans-serif;
+   border-right: 1px solid inherit;
+   font-size:18px;
+}
+
+.warning{
+    height:491px;
+    width:1200px;
+    background-image:url(/Assets/Client/img/bg-img/sesame-3311532_1280.jpg);
+    background-size:cover;
+    margin-left:100px;
+}
+
+.warning p{
+    font-family:'Lobster', cursive;
+    font-size: 52px;
+    color:#000;
+    text-align:center;
+    padding-top:130px;
+}
+
+.btnWarning{
+   margin-left:500px;   
+}
+
+/*.btn-info{
+    height:50px;
+    width:250px;
+}*/
+
+.btnWarning a i{
+    font-size:20px;
+}
+
+.btnWarning a{
+    font-size:20px;
+}
+
+
+
+.p3{
+    font-size:28px;
+   color:#891801;
+}
+
+
+

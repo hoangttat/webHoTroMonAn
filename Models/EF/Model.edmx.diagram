@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="35f43ba74c2849448ae4b38e95d15d1f" Name="Diagram1">
+        <EntityTypeShape EntityType="RestaurantModel.Banner" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Book_Food" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Food" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Food_Category" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Footer" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Main_Menu" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.News" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.OrderTable" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.sysdiagram" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.User" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantModel.FK_Book_Food_Food" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_Book_Food_OrderTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_Food_Food_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_OrderTable_User" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="RestaurantModel.Favorite" Width="1.5" PointX="5.25" PointY="9.75" />
+        <AssociationConnector Association="RestaurantModel.FK_Favorite_Food" />
+        <AssociationConnector Association="RestaurantModel.FK_Favorite_User" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

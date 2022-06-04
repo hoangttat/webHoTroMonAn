@@ -1,0 +1,800 @@
+E:\Part time\New Project\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csprojAssemblyReference.cache
+E:\Part time\New Project\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll.config
+E:\Part time\New Project\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.pdb
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\csc.exe
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\csc.exe.config
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\csc.rsp
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\csi.exe
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\csi.exe.config
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\csi.rsp
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.AppContext.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Collections.Immutable.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Console.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.IO.Compression.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.AccessControl.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.Claims.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.ValueTuple.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\vbc.exe
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\vbc.exe.config
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\vbc.rsp
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe
+E:\Part time\New Project\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe.config
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Antlr3.Runtime.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\EntityFramework.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Microsoft.Web.Infrastructure.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Newtonsoft.Json.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\PagedList.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\PagedList.Mvc.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Helpers.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Mvc.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Optimization.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Razor.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.WebPages.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\WebGrease.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\EntityFramework.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\PagedList.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\PagedList.Mvc.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Helpers.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Mvc.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Optimization.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.Razor.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.WebPages.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Newtonsoft.Json.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Antlr3.Runtime.pdb
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Part time\New Project\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CopyComplete
+E:\Part time\New Project\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.dll
+E:\Part time\New Project\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.pdb
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\sqlcese40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\sqlceqp40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\sqlceme40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\sqlceer40EN.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\sqlcecompact40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\sqlceca40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\sqlcese40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\sqlceqp40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\sqlceme40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\sqlceer40EN.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\sqlcecompact40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\sqlceca40.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Part time\New Project\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Autofac.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.FileSystem.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.FileSystem.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\ImageProcessor.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Data.SqlServerCe.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.ValueTuple.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Autofac.pdb
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Autofac.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\CKSource.FileSystem.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\ImageProcessor.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\System.ValueTuple.xml
+E:\Part time\New Project\WebOrderTbRestaurant\bin\PayPal.dll
+E:\Part time\New Project\WebOrderTbRestaurant\bin\PayPal.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll.config
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.pdb
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.exe
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.exe.config
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.rsp
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.exe
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.exe.config
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.rsp
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.AppContext.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Collections.Immutable.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Console.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Compression.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.AccessControl.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Claims.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Principal.Windows.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.ValueTuple.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.exe
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.exe.config
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.rsp
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe.config
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlcese40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceqp40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceme40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceer40EN.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlcecompact40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceca40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlcese40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceqp40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceme40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceer40EN.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlcecompact40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceca40.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Win32.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\netstandard.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.AppContext.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.Concurrent.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.NonGeneric.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.Specialized.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.EventBasedAsync.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.TypeConverter.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Console.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Data.Common.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Contracts.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Debug.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.FileVersionInfo.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Process.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.StackTrace.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Tools.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.TraceSource.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Tracing.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Drawing.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Dynamic.Runtime.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.Calendars.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.Extensions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Compression.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Compression.ZipFile.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.DriveInfo.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.Watcher.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.IsolatedStorage.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.MemoryMappedFiles.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Pipes.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.UnmanagedMemoryStream.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Expressions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Parallel.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Queryable.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Http.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.NameResolution.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.NetworkInformation.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Ping.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Requests.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Security.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Sockets.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebHeaderCollection.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebSockets.Client.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebSockets.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ObjectModel.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.Extensions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.Reader.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.ResourceManager.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.Writer.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Extensions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Handles.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.InteropServices.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Numerics.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Formatters.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Json.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Xml.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Claims.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Algorithms.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Csp.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Encoding.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Primitives.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.X509Certificates.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Principal.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.SecureString.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.Encoding.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.Encoding.Extensions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.RegularExpressions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Overlapped.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Parallel.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Thread.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.ThreadPool.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Timer.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.ReaderWriter.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XDocument.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XmlDocument.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XmlSerializer.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XPath.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XPath.XDocument.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Antlr3.Runtime.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.FileSystem.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.FileSystem.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\ImageProcessor.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Web.Infrastructure.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Newtonsoft.Json.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.Mvc.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PayPal.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Data.SqlServerCe.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ValueTuple.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Helpers.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Mvc.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Optimization.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Razor.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebGrease.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.pdb
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.FileSystem.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\ImageProcessor.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.Mvc.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PayPal.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ValueTuple.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Helpers.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Mvc.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Optimization.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Razor.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Newtonsoft.Json.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Antlr3.Runtime.pdb
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csprojAssemblyReference.cache
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CoreCompileInputs.cache
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CopyComplete
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.dll
+D:\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.pdb
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll.config
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.pdb
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.exe
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.exe.config
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.rsp
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.exe
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.exe.config
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.rsp
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.AppContext.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Collections.Immutable.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Console.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Compression.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.AccessControl.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Claims.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Principal.Windows.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.ValueTuple.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.exe
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.exe.config
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.rsp
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe.config
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlcese40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceqp40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceme40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceer40EN.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlcecompact40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceca40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlcese40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceqp40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceme40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceer40EN.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlcecompact40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceca40.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Win32.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\netstandard.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.AppContext.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.Concurrent.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.NonGeneric.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.Specialized.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.EventBasedAsync.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.TypeConverter.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Console.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Data.Common.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Contracts.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Debug.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.FileVersionInfo.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Process.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.StackTrace.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Tools.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.TraceSource.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Tracing.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Drawing.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Dynamic.Runtime.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.Calendars.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.Extensions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Compression.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Compression.ZipFile.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.DriveInfo.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.Watcher.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.IsolatedStorage.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.MemoryMappedFiles.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Pipes.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.UnmanagedMemoryStream.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Expressions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Parallel.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Queryable.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Http.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.NameResolution.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.NetworkInformation.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Ping.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Requests.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Security.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Sockets.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebHeaderCollection.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebSockets.Client.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebSockets.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ObjectModel.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.Extensions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.Reader.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.ResourceManager.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.Writer.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Extensions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Handles.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.InteropServices.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Numerics.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Formatters.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Json.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Xml.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Claims.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Algorithms.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Csp.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Encoding.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Primitives.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.X509Certificates.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Principal.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.SecureString.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.Encoding.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.Encoding.Extensions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.RegularExpressions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Overlapped.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Parallel.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Thread.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.ThreadPool.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Timer.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.ReaderWriter.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XDocument.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XmlDocument.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XmlSerializer.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XPath.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XPath.XDocument.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Antlr3.Runtime.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.FileSystem.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.FileSystem.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\ImageProcessor.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Web.Infrastructure.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Newtonsoft.Json.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.Mvc.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PayPal.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Data.SqlServerCe.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ValueTuple.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Helpers.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Mvc.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Optimization.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Razor.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebGrease.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.pdb
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.FileSystem.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\ImageProcessor.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.Mvc.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PayPal.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ValueTuple.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Helpers.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Mvc.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Optimization.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Razor.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Newtonsoft.Json.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Antlr3.Runtime.pdb
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.AssemblyReference.cache
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CoreCompileInputs.cache
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CopyComplete
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.dll
+D:\TEST\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.pdb
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll.config
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebOrderTbRestaurant.pdb
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.exe
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.exe.config
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csc.rsp
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.exe
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.exe.config
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\csi.rsp
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.AppContext.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Collections.Immutable.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Console.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Compression.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.IO.Pipes.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.AccessControl.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Claims.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.ValueTuple.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.exe
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.exe.config
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\vbc.rsp
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\roslyn\VBCSCompiler.exe.config
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlcese40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceqp40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceme40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceer40EN.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlcecompact40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\sqlceca40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlcese40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceqp40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceme40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceer40EN.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlcecompact40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\sqlceca40.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Win32.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\netstandard.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.AppContext.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.Concurrent.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.NonGeneric.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Collections.Specialized.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ComponentModel.TypeConverter.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Console.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Data.Common.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Contracts.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Debug.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Process.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.StackTrace.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Tools.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.TraceSource.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Diagnostics.Tracing.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Drawing.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Dynamic.Runtime.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.Calendars.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Globalization.Extensions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Compression.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Compression.ZipFile.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.FileSystem.Watcher.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.IsolatedStorage.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.MemoryMappedFiles.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.Pipes.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Expressions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Parallel.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Linq.Queryable.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Http.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.NameResolution.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.NetworkInformation.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Ping.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Requests.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Security.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.Sockets.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebHeaderCollection.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebSockets.Client.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Net.WebSockets.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ObjectModel.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.Extensions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Reflection.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.Reader.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.ResourceManager.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Resources.Writer.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Extensions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Handles.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.InteropServices.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Numerics.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Formatters.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Json.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.Serialization.Xml.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Claims.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Algorithms.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Csp.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Encoding.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.Primitives.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.Principal.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Security.SecureString.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.Encoding.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.Encoding.Extensions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Text.RegularExpressions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Overlapped.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Parallel.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Thread.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.ThreadPool.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Timer.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.ReaderWriter.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XDocument.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XmlDocument.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XmlSerializer.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XPath.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Xml.XPath.XDocument.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Antlr3.Runtime.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.FileSystem.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.FileSystem.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\ImageProcessor.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Web.Infrastructure.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Newtonsoft.Json.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.Mvc.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PayPal.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Data.SqlServerCe.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ValueTuple.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Helpers.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Mvc.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Optimization.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Razor.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\WebGrease.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.pdb
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Autofac.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Config.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.Core.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.CKFinder.Connector.KeyValue.EntityFramework.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\CKSource.FileSystem.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServer.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\EntityFramework.SqlServerCompact.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\ImageProcessor.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PagedList.Mvc.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\PayPal.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Threading.Tasks.Extensions.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.ValueTuple.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Helpers.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Mvc.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Optimization.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.Razor.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Deployment.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\System.Web.WebPages.Razor.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Newtonsoft.Json.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Antlr3.Runtime.pdb
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.AssemblyReference.cache
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CoreCompileInputs.cache
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.csproj.CopyComplete
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.dll
+D:\Đồ Án Tốt Nghiệp - 2022\WebOrderTbRestaurant_vs5\WebOrderTbRestaurant\obj\Debug\WebOrderTbRestaurant.pdb

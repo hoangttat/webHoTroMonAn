@@ -1,0 +1,180 @@
+﻿
+@using WebOrderTbRestaurant.Models.EF;
+@{
+    var food = (Food)ViewBag.foodDetail;
+    ViewBag.Title = food.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var lstFood = ViewBag.lstFoodSameCategory as List<Food>;
+    var lstnews = ViewBag.lstNews as List<News>;
+    
+}
+
+<!-- ****** order ****** -->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <p>Thực đơn</p>
+        </div>
+    </div>
+</div>
+
+<div class="bre-crum">
+    <div class="container">
+        <div class="row">
+            <p><a href="/" title=""><i class="fa fa-home"></i>Trang chủ</a> &gt;&gt; Thực đơn &gt;&gt; @food.Name</p>
+        </div>
+    </div>
+</div>
+
+<!--Detail Food-->
+<div class="content detail-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 detail-product">
+                <div class="col-sm-6 col-md-6 col-lg-6 detail-left" style="float:left">
+                    <div class="bx-wrapper" style="max-width: 100%">
+                        <div class="bx-viewport" style="width: 100%; overflow:hidden; position:relative; height:288px;">
+                            <ul class="bxslider" style="width: 315%; position: relative; transition-duration: 0s; transform: translate3d(-384px, 0px, 0px);">
+                                <li class="" style="float: left; list-style: none; position: relative; width: 384px;">
+                                    <span class="zoom1">
+                                        <img src="~/Assets/Client/img/food/@food.Image" alt="">
+                                    </span>
+                                </li>
+                                <li class="bx-clone" style="float: left; list-style: none; position: relative; width: 384px;"><span class="zoom1"><img src="~/Assets/Client/img/food/@food.Image" alt=""></span></li>
+                            </ul>
+                        </div>
+
+                        <div class="price-order">
+                            <span class="pull-left price">@food.Price.Value.ToString("N0") ₫</span>
+                            <span class="pull-right dat-mon"><a href="/my-menu?foodId=@food.ID&quantity=1" title=""><i class="fa fa-shopping-cart"></i>&nbsp;Đặt món</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 detail-right" style="float:left">
+                    <p class="name-products">@food.Name</p>
+                    <div class="des-product">
+                        <p>@Html.Raw(food.Description)</p>
+
+                    </div>
+                    <div class="thanhphan">
+                        <h2>Thành phần</h2>
+                    </div>
+                    <div class="nguyenlieu">
+                        <p>@Html.Raw(food.Ingredient)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <p class="titile-right">Bài viết hay</p>
+                <div class="list-box-right">
+                    @foreach (var item in lstnews.Take(2))
+                    {
+                        <div class="media">
+                            <a class="pull-left tintuc_img" href="">
+                                <img class="media-object" src="~/Assets/Client/img/news/@item.Image" alt="Image" >
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading" style="line-height: 1rem"><a href="" title="">@item.Title</a></h4>
+                                <div>
+                                    <p class="pull-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> &nbsp; @item.CreatedDate.Value.ToString("dd-MM-yyyy")</p>
+                                    <p class="pull-right"><a href="" title=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="archive-area section_padding_80">
+    <div class="container">
+        <div class="widget-title">
+            <h3>Món cùng danh mục</h3>
+        </div>
+        <div class="row">
+            @foreach (var item in lstFood.Take(6))
+            {
+                var url = "/mon-an/" + item.MetaTitle.Trim() + "-" + item.ID;
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post wow fadeInUp">
+                        <!-- Post Thumb -->
+                        <!-- Post Author -->
+                        @*<div class="post-author-date-area d-flex">
+                            <div class="post-author">
+                                <a href="/my-menu?foodId=@item.ID&quantity=1"><i class="fa fa-shopping-cart" aria-hidden="true" title="Thêm vào bàn của bạn"></i></a>
+                            </div>
+                            <div class="post-date">
+                                <a href="@url">@item.CreatedDate.Value.ToString("dd-MM-yyyy")</a>
+                            </div>
+                        </div>*@
+                        <div class="post-thumb" style="margin-bottom:15px;">
+                            <img src="~/Assets/Client/img/food/@item.Image" alt="" style="height:300px; width:450px;">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <div class="post-author-date-area d-flex">
+                                    <!-- Post Author -->
+                                    <div class="post-author">
+                                        <a href="/my-menu?foodId=@item.ID&quantity=1"><i class="fa fa-shopping-cart" aria-hidden="true" title="Thêm vào bàn của bạn"></i></a>
+                                    </div>
+                                    <!-- Post Date -->
+                                    <div class="post-date">
+                                        <a href="@url">@item.CreatedDate.Value.ToString("dd/MM/yyyy")  </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="@url">
+                                <h4 class="post-headline">@item.Name</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
+
+<section class="categories_area clearfix" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single_catagory wow fadeInUp" data-wow-delay=".3s">
+                    <img src="/Assets/Client/img/food/Tiec-bao-hypng.png" alt="">
+                    <div class="catagory-title">
+                        <a href="#">
+                            <h5> Tiệc báo hỷ</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single_catagory wow fadeInUp" data-wow-delay=".6s">
+                    <img src="/Assets/Client/img/food/Tiec hoi nghi.png" alt="">
+                    <div class="catagory-title">
+                        <a href="#">
+                            <h5> Tiệc hội nghị</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single_catagory wow fadeInUp" data-wow-delay=".9s">
+                    <img src="/Assets/Client/img/food/tiec sinh nhat.png" alt="">
+                    <div class="catagory-title">
+                        <a href="#">
+                            <h5> Tiệc sinh nhật</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

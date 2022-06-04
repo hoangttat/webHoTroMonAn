@@ -1,0 +1,182 @@
+﻿@using WebOrderTbRestaurant.Models.EF;
+@using PagedList.Mvc;
+@using WebOrderTbRestaurant.Models.Business;
+@model PagedList.IPagedList<Food>
+@{
+    var foodcategory = ViewBag.FoodCategory as Food_Category;
+
+    ViewBag.Title = foodcategory.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Favorite = ViewBag.Favorite as List<Favorite>;
+    var link = "/thuc-don/" + foodcategory.Link + "-" + foodcategory.ID;
+}
+
+
+<div class="banner">
+    <div class="container">
+        <div class="row text-center">
+            <p>Thực đơn</p>
+        </div>
+    </div>
+</div>
+<div class="breadcumb-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@foodcategory.Name</li>
+                    </ol>
+                </nav>
+                @*<div class="pull-right">
+                        <div class="col-md-3">
+                            <label>Sắp xếp theo:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control" id="Orderslt">
+                                <option value="">---Chọn---</option>
+                                <option value="?type=name&order=a-to-z">Từ A đến Z</option>
+                                <option value="?type=name&order=z-to-a">Từ Z đến A</option>
+                                <option value="?type=price&order=desc">Giá từ cao xuống thấp</option>
+                                <option value="?type=price&order=esc">Giá từ thấp đến cao</option>
+                            </select>
+                        </div>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="social_icon_area clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-social-area d-flex">
+                    <div class="single-icon" style="padding-top: 5px;">
+                        <a><span>Sắp xếp theo:</span></a>
+                    </div>
+                    <div class="single-icon">
+                        <a href="@link?type=name&order=a-to-z" class="btn btn-outline-primary">Từ A đến Z</a>
+                    </div>
+                    <div class="single-icon">
+                        <a href="@link?type=name&order=z-to-a" class="btn btn-outline-primary">Từ Z đến A</a>
+                    </div>
+                    <div class="single-icon">
+                        <a href="@link?type=price&order=desc" class="btn btn-outline-primary">Giá từ cao xuống thấp</a>
+                    </div>
+                    <div class="single-icon">
+                        <a href="@link?type=price&order=esc" class="btn btn-outline-primary">Giá từ thấp đến cao</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ****** Breadcumb Area End ****** -->
+<!-- ****** Archive Area Start ****** -->
+<section class="archive-area section_padding_50">
+    <div class="container">
+
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                var url = "/mon-an/" + item.MetaTitle.Trim() + "-" + item.ID;
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post wow fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb text-center" style="margin-bottom:-15px;">
+                            <img src="~/Assets/Client/img/food/@item.Image" alt="" style="height:350px;">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <div class="post-author-date-area d-flex" style="margin-top: 25px">
+                                    <!-- Post Author -->
+                                    <div class="post-author">
+                                        <a href="/my-menu?foodId=@item.ID&quantity=1"><i class="fa fa-shopping-cart" aria-hidden="true" title="Thêm vào bàn của bạn"></i></a>
+                                    </div>
+                                    <!-- Post Date -->
+                                    <div class="post-date">
+                                        <a href="@url">@item.CreatedDate.Value.ToString("dd/MM/yyyy")  </a>
+                                    </div>
+                                </div>
+                                <div class="post-comment-share-area d-flex" style="margin-top: 25px">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        @if (CookiesManage.Logined())
+                                        {
+                                            var islike = Favorite.Count(x => x.Food_ID == item.ID && x.User_ID == CookiesManage.GetUser().ID) > 0 ? true : false;
+                                            <a href="javascript:void(0)" class="btnFavorite" data-userid="@CookiesManage.GetUser().ID" data-foodid="@item.ID">
+                                                <i class="fa @(islike ? "fa-heart" : "fa-heart-o") fa-fw" aria-hidden="true"></i>
+                                                @(Favorite.Count(x => x.Food_ID == item.ID) > 0 ? Html.Raw("<span>" + Favorite.Count(x => x.Food_ID == item.ID) + "</span>") : Html.Raw("<span></span>"))
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <a href="javascript:void(0)" class="btnLogin">
+                                                <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i>
+                                                @(Favorite.Count(x => x.Food_ID == item.ID) > 0 ? Html.Raw("<span>" + Favorite.Count(x => x.Food_ID == item.ID) + "</span>") : Html.Raw("<span></span>"))
+                                            </a>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="@url">
+                                <h4 class="post-headline">@item.Name</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="col-12">
+                <div class="pagination-area d-sm-flex mt-15">
+                    <nav aria-label="#">
+                        <ul class="pagination">
+                            @if (Model.PageNumber > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("FoodCategory", new { type = ViewBag.Type, order = ViewBag.Order, Page = Model.PageNumber - 1 })">Sau <i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= Model.PageCount; i++)
+                            {
+                                <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("FoodCategory", new { type = ViewBag.Type, order = ViewBag.Order,  Page = i })">@i</a>
+                                </li>
+                            }
+
+                            @if (Model.PageNumber < Model.PageCount)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("FoodCategory", new { type = ViewBag.Type, order = ViewBag.Order, Page = Model.PageNumber + 1 })">Tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                </li>
+                            }
+
+                        </ul>
+                    </nav>
+                    <div class="page-status">
+                        <p>Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@section jsFooter{
+    <script>
+        var url = window.location;
+        var element = $('.single-icon a').filter(function () {
+            return this.href == url || this.href + "&Page=" + "@Model.PageNumber" == url;
+        }).addClass('active');
+    </script>
+    <script src="~/Assets/Client/js/favorite.js"></script>
+}

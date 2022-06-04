@@ -1,0 +1,103 @@
+﻿
+@{
+    Layout = null;
+    var admin = Session["admin"] as WebOrderTbRestaurant.Models.EF.User;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title | Admin</title>
+
+    <!--Font Google-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/Assets/Admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="/Assets/Admin/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/Assets/Admin/dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="/Assets/Admin/vendor/morrisjs/morris.css" rel="stylesheet">
+    <link href="~/Assets/Admin/Notify/css/BrightTheme.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/Notify/css/PNotify.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/Notify/css/PNotifyBootstrap3.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/Notify/css/PNotifyConfirm.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/c3/c3.min.css" rel="stylesheet" />
+    <!--CKEditor-->
+    <script src="~/Assets/Admin/js/ckeditor/ckeditor.js"></script>
+    <script src="~/Assets/Admin/js/ckfinder/ckfinder.js"></script>
+    <!--CKFinder-->
+    <!--Css-->
+    <link href="~/Assets/Admin/css/Tool.css" rel="stylesheet" />
+    <link href="~/Assets/Client/css/Button.css" rel="stylesheet" />
+    <link href="~/Assets/Client/css/css/date-picker/datepicker.css" rel="stylesheet" />
+    <!-- Custom Fonts -->
+    <link href="/Assets/Admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    @if (admin == null)
+    {
+        TempData["message"] = "Bạn vui lòng đăng nhập.";
+        Response.Redirect("~/user/login");
+    }
+    <div id="wrapper">
+        @RenderPage("_Navigation.cshtml")
+
+        <div id="page-wrapper">
+
+            @if (TempData["AlertMessage"] != null)
+            {
+                <div id="AlertBox" class="alert @TempData["AlertType"] hide" style="text-align:center;font-size: 28px;">
+                    @TempData["AlertMessage"]
+                </div>
+            }
+
+            @RenderBody()
+        </div>
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="/Assets/Admin/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/Assets/Admin/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/Assets/Admin/vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="/Assets/Admin/vendor/raphael/raphael.min.js"></script>
+    <script src="/Assets/Admin/vendor/morrisjs/morris.min.js"></script>
+    <script src="/Assets/Admin/data/morris-data.js"></script>
+    <script src="~/Assets/Admin/Notify/js/PNotify.js"></script>
+    <script src="~/Assets/Admin/Notify/js/PNotifyBootstrap3.js"></script>
+    <script src="~/Assets/Admin/Notify/js/PNotifyConfirm.js"></script>
+
+    <script src="~/Assets/Admin/c3/c3.min.js"></script>
+    <script src="https://c3js.org/js/d3-5.8.2.min-c5268e33.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="/Assets/Admin/dist/js/sb-admin-2.js"></script>
+
+    <!--Date picker-->
+    <script src="~/Assets/Client/js/date-picker/bootstrap-datepicker.js"></script>
+
+    <!--Ckeditor-->
+    <script src="~/Assets/Admin/js/ckeditor/ckeditor.js"></script>
+    <script src="~/Assets/Admin/js/ckfinder/ckfinder.js"></script>
+
+
+    @RenderSection("jsFooter", required: false)
+</body>
+</html>

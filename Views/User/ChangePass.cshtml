@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "Đổi mật khẩu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="banner">
+    <div class="container">
+        <div class="row text-center">
+            <p>Đổi mật khẩu</p>
+        </div>
+    </div>
+</div>
+
+<div class="breadcumb-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Đổi mật khẩu</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ****** Breadcumb Area End ****** -->
+<!-- ****** Contatc Area Start ****** -->
+<div class="contact-area">
+    <div class="container">
+
+        <!-- Contact Form  -->
+        <div class="contact-form-area">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                </div>
+                <div class="col-12 col-md-5 item">
+                    <div class="contact-form">
+                        <h2 class="contact-form-title mb-30 text-center text-uppercase">Đổi mật khẩu</h2>
+                        @if (TempData["message"] != null)
+                        {
+                            <h5 class="alert alert-danger text-center">@TempData["message"]</h5>
+                        }
+
+                        @using (Html.BeginForm("frmChangePass", "User", FormMethod.Post, new { id = "frmValidate" }))
+                        {
+                            <div class="form-group">
+                                <label for="">Mật khẩu cũ (<span style="color:red">*</span>)</label>
+                                <input type="password" class="form-control" name="Old_Pass" placeholder="Nhập mật khẩu cũ...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Mật khẩu mới (<span style="color:red">*</span>)</label>
+                                <input type="password" class="form-control" name="New_Pass" id="New_Pass" placeholder="Nhập mật khẩu mới...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Nhập lại mật khẩu (<span style="color:red">*</span>)</label>
+                                <input type="password" class="form-control" name="Re_Pass" placeholder="Nhập lại mật khẩu...">
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn contact-btn">Cập nhật</button>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section jsFooter{
+
+    <script>
+        $(document).ready(function () {
+            
+            //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+            $("#frmValidate").validate({
+                rules: {
+                    Old_Pass: "required",
+                    New_Pass: "required",
+                    Re_Pass: {
+                        required: true,
+                        equalTo: "#New_Pass"
+                    }
+                },
+                messages: {
+                    Old_Pass: "Vui lòng nhập mật khẩu cũ",
+                    New_Pass: "Vui lòng nhập mật khẩu mới",
+                    Re_Pass: {
+                        required: "Vui lòng nhập lại mật khẩu",
+                        equalTo: "Mật khẩu không trùng"
+                    }
+                }
+            });
+        });
+    </script>
+
+}

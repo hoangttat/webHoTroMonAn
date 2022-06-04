@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RestaurantModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Banner">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MetaTitle" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Ingredient" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Food_CategoryID" Type="Int64" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Book_Food">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Food_ID" Type="Int64" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="OrderTable_ID" Type="Int64" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="Food" Relationship="Self.FK_Book_Food_Food" FromRole="Book_Food" ToRole="Food" />
+    <NavigationProperty Name="OrderTable" Relationship="Self.FK_Book_Food_OrderTable" FromRole="Book_Food" ToRole="OrderTable" />
+  </EntityType>
+  <EntityType Name="Food">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MetaTitle" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Ingredient" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Food_CategoryID" Type="Int64" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Book_Food" Relationship="Self.FK_Book_Food_Food" FromRole="Food" ToRole="Book_Food" />
+    <NavigationProperty Name="Food_Category" Relationship="Self.FK_Food_Food_Category" FromRole="Food" ToRole="Food_Category" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Favorites" Relationship="RestaurantModel.FK_Favorite_Food" FromRole="Food" ToRole="Favorite" />
+  </EntityType>
+  <EntityType Name="Food_Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Order" Type="Int32" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="Foods" Relationship="Self.FK_Food_Food_Category" FromRole="Food_Category" ToRole="Food" />
+    <Property Name="Link" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Footer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Main_Menu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Image" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="Title" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Metatile" Type="String" MaxLength="450" FixedLength="true" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="View" Type="Int32" />
+  </EntityType>
+  <EntityType Name="OrderTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Full_Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DateBook" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="TimeBook" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Count_people" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="User_ID" Type="Int64" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="Book_Food" Relationship="Self.FK_Book_Food_OrderTable" FromRole="OrderTable" ToRole="Book_Food" />
+    <NavigationProperty Name="User" Relationship="Self.FK_OrderTable_User" FromRole="OrderTable" ToRole="User" />
+    <Property Name="TotalMoney" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Full_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="OrderTables" Relationship="Self.FK_OrderTable_User" FromRole="User" ToRole="OrderTable" />
+    <Property Name="Account" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="Int32" />
+    <NavigationProperty Name="Favorites" Relationship="RestaurantModel.FK_Favorite_User" FromRole="User" ToRole="Favorite" />
+  </EntityType>
+  <Association Name="FK_Book_Food_Food">
+    <End Role="Food" Type="Self.Food" Multiplicity="0..1" />
+    <End Role="Book_Food" Type="Self.Book_Food" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Food">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Book_Food">
+        <PropertyRef Name="Food_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Book_Food_OrderTable">
+    <End Role="OrderTable" Type="Self.OrderTable" Multiplicity="0..1" />
+    <End Role="Book_Food" Type="Self.Book_Food" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderTable">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Book_Food">
+        <PropertyRef Name="OrderTable_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Food_Food_Category">
+    <End Role="Food_Category" Type="Self.Food_Category" Multiplicity="0..1" />
+    <End Role="Food" Type="Self.Food" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Food_Category">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Food">
+        <PropertyRef Name="Food_CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderTable_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="OrderTable" Type="Self.OrderTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderTable">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Order_Restaurant_Db" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Banners" EntityType="Self.Banner" />
+    <EntitySet Name="Book_Food" EntityType="Self.Book_Food" />
+    <EntitySet Name="Foods" EntityType="Self.Food" />
+    <EntitySet Name="Food_Category" EntityType="Self.Food_Category" />
+    <EntitySet Name="Footers" EntityType="Self.Footer" />
+    <EntitySet Name="Main_Menu" EntityType="Self.Main_Menu" />
+    <EntitySet Name="News" EntityType="Self.News" />
+    <EntitySet Name="OrderTables" EntityType="Self.OrderTable" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Book_Food_Food" Association="Self.FK_Book_Food_Food">
+      <End Role="Food" EntitySet="Foods" />
+      <End Role="Book_Food" EntitySet="Book_Food" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Book_Food_OrderTable" Association="Self.FK_Book_Food_OrderTable">
+      <End Role="OrderTable" EntitySet="OrderTables" />
+      <End Role="Book_Food" EntitySet="Book_Food" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Food_Food_Category" Association="Self.FK_Food_Food_Category">
+      <End Role="Food_Category" EntitySet="Food_Category" />
+      <End Role="Food" EntitySet="Foods" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderTable_User" Association="Self.FK_OrderTable_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="OrderTable" EntitySet="OrderTables" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(RestaurantModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(RestaurantModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Favorites" EntityType="RestaurantModel.Favorite" />
+    <AssociationSet Name="FK_Favorite_Food" Association="RestaurantModel.FK_Favorite_Food">
+      <End Role="Food" EntitySet="Foods" />
+      <End Role="Favorite" EntitySet="Favorites" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Favorite_User" Association="RestaurantModel.FK_Favorite_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Favorite" EntitySet="Favorites" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Favorite">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Food_ID" Type="Int64" />
+    <Property Name="User_ID" Type="Int64" />
+    <NavigationProperty Name="Food" Relationship="RestaurantModel.FK_Favorite_Food" FromRole="Favorite" ToRole="Food" />
+    <NavigationProperty Name="User" Relationship="RestaurantModel.FK_Favorite_User" FromRole="Favorite" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_Favorite_Food">
+    <End Type="RestaurantModel.Food" Role="Food" Multiplicity="0..1" />
+    <End Type="RestaurantModel.Favorite" Role="Favorite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Food">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Favorite">
+        <PropertyRef Name="Food_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Favorite_User">
+    <End Type="RestaurantModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="RestaurantModel.Favorite" Role="Favorite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Favorite">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

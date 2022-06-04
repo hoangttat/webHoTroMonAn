@@ -1,0 +1,183 @@
+﻿@using WebOrderTbRestaurant.Models.Business;
+@{
+    Layout = null;
+    //var user = Session["user"] as WebOrderTbRestaurant.Models.EF.User;
+    var menu = Session["BookFood"] as List<WebOrderTbRestaurant.Models.OrderFood>;
+
+    //var user_cookies = Request.Cookies["user"];
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Title -->
+    <title>@ViewBag.Title | Pool Restaurant</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/Assets/Client/img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="~/Assets/Client/css/css/date-picker/datepicker3.css" rel="stylesheet" />
+
+    <link href="/Assets/Client/css/style.css" rel="stylesheet">
+    <link href="~/Assets/Client/css/Button.css" rel="stylesheet" />
+    <link href="~/Assets/Client/css/Menu.css" rel="stylesheet" />
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/js/jquery-typeahead-2.10.4/jquery.typeahead.css" rel="stylesheet" />
+    <!-- Responsive CSS -->
+    <link href="/Assets/Client/css/responsive/responsive.css" rel="stylesheet">
+
+    <!--Bootstrap-->
+
+
+    <link href="~/Assets/Client/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="/Assets/Admin/vendor/morrisjs/morris.css" rel="stylesheet">
+    <link href="~/Assets/Admin/Notify/css/BrightTheme.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/Notify/css/PNotify.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/Notify/css/PNotifyBootstrap3.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/Notify/css/PNotifyConfirm.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Background Pattern Swither -->
+    <!-- ****** Top Header Area Start ****** -->
+    <div class="top_header_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-4">
+                    <!--  Top Social bar start -->
+                    <div class="top_social_bar">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4">
+                    <div class="newsletter-form">
+                        <form action="/tim-kiem" method="post">
+                            <input type="text" name="keyword" id="txtKeyword" placeholder="Tìm kiếm món ăn...">
+                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4">
+                    <div class="signup-search-area d-flex align-items-center justify-content-end">
+                        <div class="login_register_area d-flex">
+                            @if (CookiesManage.Logined())
+                            {
+                                <div class="dropdown">
+                                    <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-user-circle-o fa-fw"></i>
+                                        @CookiesManage.GetUser().Full_Name
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="/user/food_favorite"><i class="fa fa-heart fa-fw"></i>Món ăn yêu thích</a>
+                                        <a class="dropdown-item" href="/user/food_view"><i class="fa fa-street-view fa-fw"></i>Món ăn đã xem</a>
+                                        <a class="dropdown-item" href="/user/changepass"><i class="fa fa-refresh fa-fw"></i>Đổi mật khẩu</a>
+                                        <a class="dropdown-item" href="/user/logout"><i class="fa fa-sign-out fa-fw"></i>Thoái tài khoản</a>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="register">
+                                    <a href="/user/register"><i class="fa fa-sign-out fa-fw"></i>Đăng ký</a>
+                                </div>
+                                <div class="login">
+                                    <a href="/user/login"><i class="fa fa-sign-in fa-fw"></i>Đăng nhập</a>
+                                </div>
+                            }
+
+
+                            <div class="login">
+                                <a href="/Order">
+                                    Thực đơn
+                                </a>
+                                <i class="fa fa-shopping-cart"></i>
+                                <span id="lblCartCount">@(menu != null ? menu.Count : 0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ****** Top Header Area End ****** -->
+    <!-- ****** Header Area Start ****** -->
+    <header class="header_area">
+        <div class="container">
+            <div class="row">
+                <!-- Logo Area Start -->
+                <div class="col-12">
+                    <div class="logo_area text-center">
+                        <a href="/" class="yummy-logo">Pool Restaurant</a>
+                    </div>
+                </div>
+            </div>
+
+            @{Html.RenderAction("MainMenu", "Home");}<!--Thanh menu chính-->
+        </div>
+    </header>
+
+
+    @RenderBody()
+
+    <footer class="footer_area">
+        @{Html.RenderAction("Footer", "Home");}
+    </footer>
+
+    <!-- ****** Footer Menu Area End ****** -->
+    <!--CSS-->
+    <link href="/Assets/Client/css/others/animate.css" rel="stylesheet" />
+    <link href="/Assets/Client/css/others/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Assets/Client/css/others/magnific-popup.css" rel="stylesheet" />
+    <link href="/Assets/Client/css/others/meanmenu.min.css" rel="stylesheet" />
+    <link href="/Assets/Client/css/others/owl.carousel.min.css" rel="stylesheet" />
+    <link href="/Assets/Client/css/others/pe-icon-7-stroke.css" rel="stylesheet" />
+
+    <!-- Jquery-2.2.4 js -->
+    <script src="~/Assets/Client/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="~/Assets/Client/js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="~/Assets/Client/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- All Plugins JS -->
+    <script src="/Assets/Client/js/others/plugins.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <!--Date picker-->
+    <script src="~/Assets/Client/js/date-picker/bootstrap-datepicker.js"></script>
+    <script src="~/Assets/Admin/Notify/js/PNotify.js"></script>
+    <script src="~/Assets/Admin/Notify/js/PNotifyBootstrap3.js"></script>
+    <script src="~/Assets/Admin/Notify/js/PNotifyConfirm.js"></script>
+    <!--jquery ui-->
+    @*<script src="https://code.jquery.com/jquery-1.12.4.js"></script>*@
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!--jquery typeahead-->
+    <script src="~/Assets/Admin/js/jquery-typeahead-2.10.4/jquery.typeahead.js"></script>
+
+    <!-- Active JS -->
+    <script src="/Assets/Client/js/active.js"></script>
+    <script src="~/Assets/Client/js/Order.js"></script>
+    <script src="~/Assets/Client/js/Search.js"></script>
+
+    @RenderSection("jsFooter", required: false)
+</body>
+</html>

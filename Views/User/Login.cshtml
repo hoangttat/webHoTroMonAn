@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="banner">
+        <div class="container">
+            <div class="row text-center">
+                <p>Đăng nhập</p>
+            </div>
+        </div>
+    </div>
+
+<div class="breadcumb-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Đăng nhập</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ****** Breadcumb Area End ****** -->
+<!-- ****** Contatc Area Start ****** -->
+<div class="contact-area">
+    <div class="container">
+
+        <!-- Contact Form  -->
+        <div class="contact-form-area">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                </div>
+                <div class="col-12 col-md-5 item">
+                    <div class="contact-form">
+                        <h2 class="contact-form-title mb-30 text-center text-uppercase">Đăng nhập</h2>
+                        @if (TempData["message"] != null)
+                        {
+                            <h5 class="alert alert-danger text-center">@TempData["message"]</h5>
+                        }
+
+                        @using (Html.BeginForm("frmLogin", "User", FormMethod.Post))
+                        {
+                            <div class="form-group">
+                                <label for="">Tài khoản</label>
+                                <input type="text" class="form-control" name="Account" placeholder="Nhập tài khoản...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Mật khẩu</label>
+                                <input type="password" class="form-control" name="Password" placeholder="Nhập mật khẩu...">
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn contact-btn">Đăng nhập</button>
+                            </div>
+                        }
+                        <!-- Contact Form -->
+
+                        <p>Chưa có tài khoản? <a href="/user/register">Đăng ký</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Đổi mật khẩu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header charecter-style">Đổi mật khẩu</h1>
+    </div>
+</div>
+<div class="row">
+    @if (TempData["message"] != null)
+    {
+        <div class="alert alert-danger text-center text-uppercase" id="AlertBox">
+            @TempData["message"]
+        </div>
+    }
+</div>
+<div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+                @using (Html.BeginForm("frmChangePass", "Login", FormMethod.Post, new { id = "frmValidate" }))
+                {
+                    <div class="form-group">
+                        <label for="">Mật khẩu cũ (<span style="color:red">*</span>)</label>
+                        <input type="password" class="form-control" name="Old_Pass" placeholder="Nhập mật khẩu cũ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mật khẩu mới (<span style="color:red">*</span>)</label>
+                        <input type="password" class="form-control" name="New_Pass" id="New_Pass" placeholder="Nhập mật khẩu mới...">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nhập lại mật khẩu (<span style="color:red">*</span>)</label>
+                        <input type="password" class="form-control" name="Re_Pass" placeholder="Nhập lại mật khẩu...">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-default btn-lg">Cập nhật</button>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section jsFooter{
+
+    <script>
+        $(document).ready(function () {
+
+            $("#frmValidate").validate({
+                rules: {
+                    Old_Pass: "required",
+                    New_Pass: "required",
+                    Re_Pass: {
+                        required: true,
+                        equalTo: "#New_Pass"
+                    }
+                },
+                messages: {
+                    Old_Pass: "Vui lòng nhập mật khẩu cũ",
+                    New_Pass: "Vui lòng nhập mật khẩu mới",
+                    Re_Pass: {
+                        required: "Vui lòng nhập lại mật khẩu",
+                        equalTo: "Mật khẩu không trùng"
+                    }
+                }
+            });
+        });
+    </script>
+
+}

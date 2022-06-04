@@ -1,0 +1,109 @@
+﻿@using WebOrderTbRestaurant.Models.EF;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Favorite>
+@{
+
+    ViewBag.Title = "Món ăn yêu thích";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="banner">
+    <div class="container">
+        <div class="row text-center">
+            <p>Món ăn yêu thích</p>
+        </div>
+    </div>
+</div>
+<div class="breadcumb-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Món ăn yêu thích</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ****** Breadcumb Area End ****** -->
+<!-- ****** Archive Area Start ****** -->
+<section class="archive-area section_padding_50">
+    <div class="container">
+
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                var url = "/mon-an/" + item.Food.MetaTitle.Trim() + "-" + item.Food.ID;
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post wow fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb text-center" style="margin-bottom:-15px;">
+                            <img src="~/Assets/Client/img/food/@item.Food.Image" alt="" style="height:350px;">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <div class="post-author-date-area d-flex" style="margin-top: 25px">
+                                    <!-- Post Author -->
+                                    <div class="post-author">
+                                        <a href="/my-menu?foodId=@item.Food.ID&quantity=1"><i class="fa fa-shopping-cart" aria-hidden="true" title="Thêm vào bàn của bạn"></i></a>
+                                    </div>
+                                    <!-- Post Date -->
+                                    <div class="post-date">
+                                        <a href="@url">@item.Food.CreatedDate.Value.ToString("dd/MM/yyyy")  </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <a href="@url">
+                                <h4 class="post-headline">@item.Food.Name</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="col-12">
+                <div class="pagination-area d-sm-flex mt-15">
+                    <nav aria-label="#">
+                        <ul class="pagination">
+                            @if (Model.PageNumber > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Food_Favorite", new { Page = Model.PageNumber - 1 })">Sau <i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= Model.PageCount; i++)
+                            {
+                                <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("Food_Favorite", new { Page = i })">@i</a>
+                                </li>
+                            }
+
+                            @if (Model.PageNumber < Model.PageCount)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Food_Favorite", new { Page = Model.PageNumber + 1 })">Tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                </li>
+                            }
+
+                        </ul>
+                    </nav>
+                    <div class="page-status">
+                        <p>Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,372 @@
+﻿body {
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.button-hd {
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.button-hd a {
+    overflow: hidden;
+    margin: 0 3px;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    background: #666;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.button-hd a i:hover{
+    color:#ff6a00;
+}
+
+.Book{
+    width: 1000px;
+    height: 80px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+   background-color: #f5f5f8;
+   border-radius:15px;
+   border-color:#000000;
+}
+#date-now{
+    text-align: center;
+    background-color: #f5f5f8;
+    height: 37px;
+}
+.item{
+    padding-top:25px;
+    float:left;
+}
+.AtTime{
+     text-align:center;     
+}
+
+.Count{
+    background-color: #f5f5f8;
+}
+
+.banner {
+    background: url(../img/food/banner.png);
+    background-size: cover;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.banner p {
+    font-family:'Lobster', cursive;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.bre-crum {
+    background: #f3f1e8;
+}
+
+
+.bre-crum p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif', serif;
+    font-size:18px;
+}
+
+
+
+.bre-crum i{
+    padding-right:3px;
+}
+
+.bre-crum a {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+}
+
+.title-news-home {
+    margin-bottom: 40px;
+    position: relative;
+    text-align:center;
+    margin-left:26%;
+    width:50%;
+    height:105px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:#f3f1e8;
+}
+
+.title-monngon, .title-news-home {
+    text-align: center;
+}
+
+.title-news-home .p1 {
+    font-size: 50px;
+    font-family:'Lobster', cursive;
+    text-transform: uppercase;
+    color: #7f1717;
+    
+}
+
+.row p1 {
+    text-align: center;
+}
+.title-news-home .p2 {
+    font-size: 14px;
+    color: #891801;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0px;
+    background-color: #fff;
+    z-index: 999;
+    position: relative;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.des_datban {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.datban_detail .form-control {
+    margin-bottom: 23px;
+    border: 1px solid #6593ba;
+    border-radius: 4px;
+    height: 40px;
+    width: 240px;
+    box-shadow: none;
+}
+
+.form-area {
+    border:  1px solid #6bb6f6;
+    border-radius: 1px;
+    padding: 10px 5px 0px;
+}
+
+.order{
+    height:200px;
+    max-width:1140px;
+    border-top: solid 1px #f3f1e8;
+}
+
+.fullname{
+    width:150px;
+    float:left;
+    margin-left:-3px;
+    margin-top:20px;
+    
+}
+
+/*details food*/
+
+.detail-news {
+    margin-bottom: 40px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.detail-product .bx-wrapper {
+    margin-bottom: 25px;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 60px;
+    padding: 0;
+}
+
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 5px solid #fff;
+    left: -5px;
+    background: #fff;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.detail-product .bx-wrapper img {
+    width: 100%;
+}
+
+
+.price-order {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+.price {
+    font-size: 24px;
+    color: #a80000;
+}
+
+.dat-mon {
+    background: #a80000;
+    padding: 8px 20px;
+}
+
+.dat-mon a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.name-products {
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 24px;
+    color: #a80000;
+}
+
+.des-product{
+    margin-top:-10px;
+}
+
+.nguyenlieu {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow:auto;
+    max-height:200px;
+}
+
+
+
+.thanhphan h2{
+    font-size:18px;
+}
+
+.nguyenlieu p{
+   line-height: 2px;
+   padding-top:7px;
+}
+
+.price-order a:hover{
+    color:#ccc;
+}
+
+/*Tin tức bên phải page*/
+.titile-right {
+    background: #f2bb09;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.list-box-right .media {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 20px;
+}
+
+.list-box-right a {
+    color: #2f2f2f;
+    font-size: 15px;
+}
+
+.xem-them-right {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 15px;
+}
+
+.xem-them-right a {
+    color: #919191;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.tinkhuyenmai {
+    margin-top: 50px;
+    clear: both;
+}
+.media img{
+    height:100px;
+    width:100px;
+}
+
+.media-body{
+    margin-left:6px;
+    margin-top: -8px;
+}
+
+.media-body h4 a{
+    line-height: none;
+}
+
+h4{
+    line-height:1px;
+}
+
+.Book a:hover{
+    cursor:pointer;
+    text-transform:capitalize;
+}
+
+.post-content{
+    margin-top:-10px;
+}
+
+.login a i{
+    font-size:18px;
+    color:#337ab7;
+    padding-right: 3px;
+}
+
+.login a:hover{   
+    cursor:pointer;
+    color:#337ab7;
+}
+
+.charecter-style{
+    font-family: 'Oswald', sans-serif;
+}
+
+.Name-title{
+    font-family: 'Encode Sans', sans-serif;
+    font-size:18px;
+    text-align:center;
+}
+
+#TimeBook{
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align:center;
+    margin-left: -8px;
+}
